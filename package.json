@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
-  "prepare": "husky install"
+    "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,7 @@
   "devDependencies": {
     "tailwindcss": "^3.4.12"
   },
-  "lint-staged":  {
+  "lint-staged": {
     "*.{js,jsx}": "eslint --cache --fix",
     "*.{js,jsx,css,html}": "prettier --write"
   }
