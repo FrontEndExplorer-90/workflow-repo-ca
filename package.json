@@ -1,0 +1,43 @@
+{
+  "name": "my-first-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "vite",
+    "lint": "eslint .",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrontEndExplorer-90/my-first-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrontEndExplorer-90/my-first-repo/issues"
+  },
+  "homepage": "https://github.com/FrontEndExplorer-90/my-first-repo#readme",
+  "dependencies": {
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "eslint": "^9.37.0",
+    "globals": "^13.24.0",
+    "prettier": "^3.6.2",
+    "vite": "^7.1.9",
+    "vitest": "^3.2.4"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{js,css,md}": [
+      "prettier --write"
+    ]
+  }
+}
