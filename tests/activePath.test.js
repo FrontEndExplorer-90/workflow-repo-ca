@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { describe, test, expect } from 'vitest';
 import { activePath } from '../src/utils/activePath.js';
 
