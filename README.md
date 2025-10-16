@@ -14,7 +14,7 @@ Then run the project using:
 
 ### Note: The project is built to work fully on Live Server, so running it that way is totally fine for testing purposes.
 
-##Scripts
+## Scripts
 
 Here’s what’s available:
 
